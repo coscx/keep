@@ -69,7 +69,7 @@ Widget _buildRight(Map<String, dynamic> userDetail) => Column(
             borderRadius: BorderRadius.all(Radius.circular(16.w)),
             child: Image(
                 image: FadeInImage.assetNetwork(
-                  placeholder: 'assets/images/ic_launcher.png',
+                  placeholder: 'assets/images/ic_launcher_old.png',
                   image: userDetail['user']['img'],
                 ).image)),
       ),
