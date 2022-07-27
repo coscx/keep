@@ -23,6 +23,8 @@ import 'package:keep/pages/distribute/binding.dart';
 import 'package:keep/pages/distribute/view.dart';
 import 'package:keep/pages/frame/login/binding.dart';
 import 'package:keep/pages/frame/login/view.dart';
+import 'package:keep/pages/frame/login_pin/view.dart';
+import 'package:keep/pages/frame/login_video/binding.dart';
 import 'package:keep/pages/frame/sign_in/index.dart';
 import 'package:keep/pages/frame/sign_up/index.dart';
 import 'package:keep/pages/frame/welcome/index.dart';
@@ -61,6 +63,8 @@ import '../../pages/add_vip/binding.dart';
 import '../../pages/calcucation_prepare/binding.dart';
 import '../../pages/calcucation_result/binding.dart';
 import '../../pages/calcucation_result/view.dart';
+import '../../pages/frame/login_pin/binding.dart';
+import '../../pages/frame/login_video/view.dart';
 import '../../pages/friend/binding.dart';
 import '../../pages/friend/view.dart';
 import '../../pages/home/binding.dart';
@@ -306,6 +310,18 @@ class AppPages {
         name: AppRoutes.Channel,
         page: () => ChannelPage(),
         binding: ChannelBinding(),
+        transition: Transition.rightToLeft
+    ),
+    GetPage(
+        name: AppRoutes.LoginVideo,
+        page: () => LoginVideoPage(),
+        binding: LoginVideoBinding(),
+        transition: Transition.rightToLeft
+    ),
+    GetPage(
+        name: AppRoutes.LoginPin,
+        page: () => LoginPinPage(),
+        binding: LoginPinBinding(),
         transition: Transition.rightToLeft
     ),
   ];

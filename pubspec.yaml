@@ -87,6 +87,7 @@ dependencies:
   package_info: ^2.0.2
   path_provider: ^2.0.9
   permission_handler: ^9.2.0
+  pinput: ^2.2.11
   qr_flutter: ^4.0.0
   record: ^3.0.4
   radial_menu: ^0.0.1

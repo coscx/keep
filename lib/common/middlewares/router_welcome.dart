@@ -27,7 +27,7 @@ class RouteWelcomeMiddleware extends GetMiddleware {
         return const RouteSettings(name: AppRoutes.Application);
       }
     } else {
-      return const RouteSettings(name: AppRoutes.LOGIN);
+      return const RouteSettings(name: AppRoutes.LoginVideo);
     }
   }
 }
